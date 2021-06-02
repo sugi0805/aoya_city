@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+.event {
+    background-image: url(../img/event.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+}
+
+.event h2 {
+    color: navy;
+}
+
+.event_inner {
+    text-align: center;
+}
+
+h4 {
+    font-size: 42px;
+    margin: 0 auto;
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 60px;
+    padding: 0 40px;
+}
+
+.photo_image {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 130px 50px 130px;
+}
+
+.event img {
+    width: 550px;
+    height: 400px;
+}
+
+.photo_text {
+    text-align: center;
+    background-color: #fff;
+    margin: 0 130px;
+    padding-top: 40px;
+    background-color:rgba(255,255,255,0.9);
+    background-blend-mode:lighten;
+}
+
+.photo_text p {
+    font-size: 32px;
+}
+
+.price {
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    margin: 50px 0;   
+}
+table, td, th{
+    border: 1px solid black;
+    padding: 10px 80px;
+}
+
+.information {
+    text-align: center;
+    background-image: url(../img/top.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.information p {
+    font-size: 28px;
+}
+
+.information_all {
+    background-color: #fff;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    display: inline-block;
+    padding: 40px;
+    width: 1080px;
+}
+
+form {
+    background-image:url(../img/image1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.2);
+    background-blend-mode:lighten;
+    padding: 50px 0;
+}
+
+.form_title {
+    text-align: center;
+    padding-top: 40px;    
+}
+
+.form_all {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.form_inner {
+    background-color: #fff;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.item{
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .label{
+    float: left;
+    margin-right: 20px;
+    width: 135px;
+    border-left: solid 3px navy;
+    padding-left: 10px;
+  }
+
+  input[type="text"] {
+      width: 200px;
+  }
+
+  textarea{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding: 10px;
+    height: 160px;
+    font-size: 15px;
+  }
+
+  .btn_area {
+      text-align: center;
+      padding-top: 30px;
+  }
+
+  input[type="submit"]{
+    background: navy;
+    border: none;
+    color: white;
+    font-size:17px;
+    padding: 10px 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .event h2 {
+        padding: 20px 0;
+    }
+
+    h4 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        padding: 0 40px;
+    }
+
+    .photo_image {
+        margin: 0 40px 20px 40px;
+    }
+    
+    .event img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .photo_text {
+        margin: 0 40px;
+        padding: 40px 20px;     
+    }
+    
+    .photo_text p {
+        font-size: 20px;
+    }
+    
+    .price {
+        font-size: 22px;
+        margin: 50px 0 15px 0;   
+    }
+
+    table, td, th{
+        padding: 5px 50px;
+    }
+
+    .information {
+        padding: 20px 0;
+    }
+    
+    .information p {
+        font-size: 20px;
+    }
+    
+    .information_all {
+        padding: 40px;
+        width: 600px;
+    }
+
+    form {
+        padding: 20px 0;
+    }
+
+    .form_inner {
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    .form_all {
+        padding-bottom: 20px;
+    }
+
+    .form_title {
+        padding-top: 20px;    
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        padding: 0 51px;
+    }
+
+    .photo_image {
+        display: unset;
+        margin: unset;
+    }
+
+    .photo_image img {
+        padding-bottom: 10px;
+    }
+
+    .photo_text {
+        margin: 0 20px;
+        padding: 25px 15px;     
+    }
+    
+    .photo_text p {
+        font-size: 13px;
+    }
+
+    .price {
+        font-size: 14px;
+        margin: 30px 0 10px 0;   
+    }
+    
+    .information p {
+        font-size: 14px;
+    }
+    
+    .information_all {
+        padding: 15px;
+        width: 290px;
+    }
+
+    form {
+        padding: unset;
+    }
+
+    .form_inner {
+        width: 320px;
+    }
+
+    .form_all {
+        width: 250px;
+        padding-bottom: 20px;
+        margin: 0 35px;
+        font-size: 12px;
+    }
+
+    .form_title {
+        padding-top: 15px;    
+    }
+    
+    .label{
+        margin-right: 10px;
+        width: 90px;
+        border-left: solid 3px navy;
+        padding-left: 5px;
+      }
+
+      input[type="text"] {
+        width: 220px;
+    }
+
+    textarea{
+        border: solid 1px #aaa;
+        padding: 10px;
+        height: 160px;
+        width: 200px;
+      }
+
+      .btn_area {
+        padding-top: unset;
+    }
+   
+  }

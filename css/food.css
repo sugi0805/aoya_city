@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+.food_top {
+    text-align: center;
+    background-image:url(../img/海鮮丼top.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    padding-bottom: 40px;
+}
+
+.food_top h2 {
+    color: navy;
+}
+
+.food_text {
+    text-align: center;
+    background-image:url(../img/海鮮丼top.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    padding: 40px;
+}
+
+.food_text_all {
+    background-color: #fff;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    display: inline-block;
+    padding: 40px;
+}
+
+.food_text_all p {
+    color: navy;
+    font-size: 20px;
+}
+
+.food_contents {
+    padding: 0px 120px 50px 120px;
+    background-image:url(../img/海鮮丼.jpg);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+}
+
+.food_contents h2 {
+    color: navy;
+}
+
+.food_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food_inner2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food_inner img {
+    width: 93%;
+}
+
+.food_inner2 img {
+    width: 45%;
+}
+
+.food_inner .inner_text {
+    text-align: center;
+    background-color: #fff;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    display: inline-block;
+    padding: 70px 20px;
+    width: 900px;  
+}
+
+.food_inner2 .inner_text {
+    text-align: center;
+    background-color: #fff;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    display: inline-block;
+    padding: 70px 5px;
+    width: 600px;  
+}
+
+.food_inner .inner_text  span {
+    color:red;
+}
+
+.food_inner2 .inner_text  span {
+    color:red;
+}
+
+@media screen and (max-width: 768px) {
+
+    .food_top h2 {
+        padding: 20px 0;
+    }
+
+    .food_top img {
+        width: 90%;
+    }
+    
+    .food_text_all {
+        padding: 20px 70px;
+    }
+
+    .food_contents {
+        padding: 0px 40px 30px 40px;
+    }
+
+    .food_inner img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .food_inner2 img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .food_inner .inner_text {
+        padding: 15px 5px;
+        width: 340px;  
+    }
+
+    .food_inner2 .inner_text {
+        padding: 15px 5px;
+        width: 360px;  
+    }
+
+    .food_inner .inner_text p {
+        font-size: 12px;  
+    }
+
+    .food_inner2 .inner_text p {
+        font-size: 12px;  
+    }
+
+    .food_inner .inner_text  span {
+        font-size: 16px;
+    }
+
+    .food_inner2 .inner_text  span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .food_top {
+        padding-bottom: 20px;
+    }
+
+    .food_text {
+        padding: 20px;
+    }
+
+    .food_text_all {
+        padding: 10px 20px;
+    }
+
+    .food_text_all  p {
+        font-size: 12px;
+    }
+
+    .food_contents {
+        padding: unset;
+        text-align: center;
+        
+    }
+
+    .food_inner {
+        display: unset;
+    }
+
+    .food_inner2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .food_inner img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .food_inner2 img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .food_inner .inner_text {
+        padding: 15px 5px;
+        width: 320px; 
+        margin: 20px 0;
+    }
+
+    .food_inner2 .inner_text {
+        padding: 15px 5px;
+        width: 320px; 
+        margin: 20px 0;
+    }
+
+    .food_inner .inner_text p {
+        font-size: 10px;  
+    }
+
+    .food_inner2 .inner_text p {
+        font-size: 10px;  
+    }
+
+
+
+}

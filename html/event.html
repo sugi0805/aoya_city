@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>碧谷市ホームページ</title>
+    <meta name="description" content="千葉県にあります、碧谷市のホームページです。">
+    <meta name="keywords" content="碧谷市,千葉県,碧泉洞">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="碧谷市ホームページ">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://withcode-plus.tech"><!--ドメイン取得後に変更する-->
+    <meta property="og:image" content="img/logo.png"><!--ロゴ確認後に入れる-->
+    <meta property="og:description" content="千葉県にあります、碧谷市のホームページです。">
+    <meta property="og:site_name" content="碧谷市ホームページ">
+    <link rel="icon" href="favicon.ico"><!--設定し、入れる-->
+    <link rel="apple-touch-icon" sizes="180×180" href="img/logo.png"><!--設定し、入れる-->
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/event.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+JP:wght@200;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="header_all">
+                <a href="../index.html" class="logo">
+                <img src="../img/logo.jpg" alt="ロゴ画像">
+                </a>
+                <nav class="navi_container">
+                    <ul>
+                        <li><a href="../index.html">Home<br><span>-ホーム-</span></a></li>
+                        <li><a href="../html/about.html">About<br><span>-碧泉洞について</span>-</a></li>
+                        <li><a href="../html/event.html">Event<br><span>-イベント-</span></a></li>
+                        <li><a href="../#access">Access<br><span>-アクセス-</span></a></li>
+                        <li><a href="../html/food.html">Food<br><span>-食事-</span></a></li>
+                    </ul>
+                </nav>
+             </div>
+         </section>
+         <p class="drawer"></p>
+    </header>
+
+    <main>
+        <section class="event">
+            <div class="event_inner">
+                <h2>Event<br><span>-イベント-</span></h2>
+                <h4>シュノーケリング体験</h4>
+                <div class="photo_image">
+                    <div class="fadeIn"><img src="../img/event.jpg" alt="イメージ画像①"></div>
+                    <div class="fadeIn"><img src="../img/image4.jpg" alt="イメージ画像②"></div>
+                </div>
+            </div>
+            <div class="photo_text">
+                <p>碧泉洞のシュノーケリング体験を始めました！<br><br>
+                    以前からお客様より多数のご要望を頂いておりました企画です。<br><br>
+                    満を持して、体験会を開催をする事が出来ましたので<br><br>
+                    この機会に是非ともご参加くださいませ！</p>
+                <div class="price">
+                    <table border="１">
+                        <tr>
+                            <th></th>
+                            <th>料金</th>
+                        </tr>
+                        <tr>
+                          <td>大人</td>
+                          <td>￥1,100</td>
+                        </tr>
+                        <tr>                          
+                          <td>小人</td>
+                          <td>￥550</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="information">
+            <div class="information_all">
+                <h4>Information</h4>
+                <p>
+                    2021/5/2  順路変更致しました<br><br>
+                    2021/4/2  休業のお知らせ（工事の為）<br><br>
+                    2021/3/23  洞窟内マップ更新しました
+                </p>
+            </div>
+        </section>
+
+        <section class="form">
+            <form>
+              <div class="form_inner">
+                <div class="form_title">
+                <h4>お問い合わせ</h4>
+                </div>
+                <div class="form_all">
+                <div class="item">
+                    <label class="label">お名前：</label>
+                    <input type="text" placeholder="名字 名前">
+                </div>
+                <div class="item">
+                    <label class="label">アドレス：</label>
+                    <input type="text" placeholder="example@aoyacity.jp">
+                </div>
+                <div class="item">
+                    <label class="label">性別：</label>
+                    <input type="radio" name="gender" value="男" checked>男
+                    <input type="radio" name="gender" value="女">女
+                    <input type="radio" name="gender" value="その他">その他
+                </div>
+                <div class="item">
+                    <label class="label">内容：</label>
+                      <select name="contents">
+                      <option value="reserved">予約</option>
+                      <option value="contact">お問い合わせ</option>
+                      </select>
+                </div>
+                <div class="item">
+                    <label class="label">その他：</label>
+                    <textarea name="message" placeholder="その他"></textarea>
+                </div>
+                <div class="btn_area">
+                <input type="submit" value="送信する">
+                </div>
+                </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_all">
+            <div class="footer_logo">
+                <a href="../index.html">
+                  <img src="../img/logo.jpg" alt="ロゴ画像">
+                </a>
+            </div>
+            <p>〒294-0000  千葉県碧谷市〇〇-〇〇  tel 042-3456-〇〇〇〇</p>
+            <p>Follow Us</p>
+            <ul class="footer_sns">
+                <li class="sns_icon1">
+                  <a href="#"><img src="../img/twitter.png" alt="Twitterアイコン"></a>
+                </li>
+                <li class="sns_icon2">
+                  <a href="#"><img src="../img/instagram.png" alt="Instagramアイコン"></a>
+                </li>
+              </ul>
+              <small class="footer_text">©Aoya City .All Right Reserved.</small>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+</body>
