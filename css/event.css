@@ -306,3 +306,30 @@ form {
     }
    
   }
+
+  @media screen and (max-width: 320px) {
+
+    h4 {
+        padding: 0 25px;
+    }
+
+    .event img {
+        width: 280px;
+        height: 210px;
+    }
+
+    .photo_text p {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 12px;
+        margin: 25px 0 5px 0;   
+    }
+
+    table, td, th{
+        padding: 5px 40px;
+    }
+
+
+  }

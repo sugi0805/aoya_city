@@ -65,7 +65,8 @@
 }
 
 .food_inner2 img {
-    width: 45%;
+    width: 94%;
+    margin-left: 35px;
 }
 
 .food_inner .inner_text {
@@ -85,7 +86,8 @@
     background-blend-mode:lighten;
     display: inline-block;
     padding: 70px 5px;
-    width: 600px;  
+    width: 900px; 
+    margin-right: 20px;
 }
 
 .food_inner .inner_text  span {
@@ -120,8 +122,9 @@
     }
 
     .food_inner2 img {
-        width: 300px;
+        width: 350px;
         height: 320px;
+        margin: unset;
     }
 
     .food_inner .inner_text {
@@ -131,7 +134,8 @@
 
     .food_inner2 .inner_text {
         padding: 15px 5px;
-        width: 360px;  
+        width: 340px;
+        height: 290px;
     }
 
     .food_inner .inner_text p {
@@ -205,6 +209,7 @@
         padding: 15px 5px;
         width: 320px; 
         margin: 20px 0;
+        height: 250px;
     }
 
     .food_inner .inner_text p {
@@ -214,7 +219,41 @@
     .food_inner2 .inner_text p {
         font-size: 10px;  
     }
+}
 
+    @media screen and (max-width: 320px) {
 
+    .food_text_all p {
+        font-size: 11px;
+    }
 
+    .food_inner img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .food_inner2 img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .food_inner .inner_text {
+        padding: 15px 5px;
+        width: 270px; 
+        margin: 20px 0;
+    }
+
+    .food_inner2 .inner_text {
+        padding: 15px 5px;
+        width: 270px; 
+        margin: 20px 0;
+    }
+
+    .food_inner .inner_text span {
+        font-size: 14px;
+    }
+
+    .food_inner2 .inner_text span {
+        font-size: 14px;
+    }
 }

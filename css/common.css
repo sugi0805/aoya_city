@@ -300,4 +300,18 @@ footer p {
 }
 
 }
+
+@media screen and (max-width: 320px) {
+
+
+  span {
+    font-size: 14px;
+}
+
+  footer p {
+    font-size: 10px;
+}
+
+
+}
  
